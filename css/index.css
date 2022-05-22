@@ -63,7 +63,6 @@ input[type='text'] {
 #todo-list{
     list-style: none;
     font-weight: 400;
-    align-self: stretch;
 }
 
 
@@ -102,13 +101,16 @@ input[type='text'] {
 .container-middle input[type='submit']:hover,
 .container-middle input[type='submit']:active {
     background-color: darkgray;
-
 }
 
 #clock{
     margin-top:.1em;
     font-size: 4.5em;
     font-weight:700;
+}
+
+.container-bottom{
+    align-self: flex-end;
 }
 
 
