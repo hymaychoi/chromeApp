@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding:1.5em;
+    color:whitesmoke;
+    text-shadow: 1px 1px 4px #2d2d2d;
+}
+
+form, button{
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    border:none;
+    background-color: inherit;
+    margin-left:.5em;
+    text-shadow: 1px 1px 2px #2d2d2d;
+
+}
+
+input[type='text'] {
+    padding:.5em 1em;
+    min-width:340px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .75em;
+    font-weight:500;
+    border:none;
+    border-radius: 5px;
+}
+
+.hidden{
+    display: none;
+
+}
+
+.normal-font-weight {
+    font-weight: 400;
+    font-size: .7em;
+    
+}
+
+.container-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.25em;
+}
+
+.todo-container{
+    height:calc(100/3%);
+}
+
+#todo-list{
+    list-style: none;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+
+#weather span{
+    margin-top:0;
+}
+
+#weather span:nth-child(3){
+    font-size: .8em;
+}
+
+.container-middle {
+    position: absolute;
+    top:35%;
+    left:38%;
+    text-align: center;
+}
+
+#greeting{
+    margin-bottom:0;
+}
+
+.container-middle input[type='text'] {
+    height:3em;
+    font-size:.8em
+}
+
+.container-middle input[type='submit'] {
+    padding:.5em 1.5em;
+    height:3em;
+    min-width:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: .8em;
+    border:none;
+    border-radius: 5px;
+}
+.container-middle input[type='submit']:hover,
+.container-middle input[type='submit']:active {
+    background-color: darkgray;
+
+}
+
+#clock{
+    margin-top:.1em;
+    font-size: 4.5em;
+    font-weight:700;
+}
+
+
