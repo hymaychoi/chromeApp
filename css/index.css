@@ -75,6 +75,7 @@ input[type='text'] {
 }
 
 .container-middle {
+    margin-top:50px;
     text-align: center;
 }
 
