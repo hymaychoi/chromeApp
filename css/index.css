@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 500;
     padding:1.5em;
     color:whitesmoke;
@@ -76,9 +76,7 @@ input[type='text'] {
 }
 
 .container-middle {
-    position: absolute;
-    top:35%;
-    left:38%;
+    margin-top:-50px;
     text-align: center;
 }
 
